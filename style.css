@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background: url(https://picsum.photos/id/1018/1600/900);
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circular-menu {
+    position: relative;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+.inner-circle {
+    content: '';
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-circle i {
+    color: #fff;
+    font-size: 1.3em;
+}
