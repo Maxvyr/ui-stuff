@@ -35,3 +35,94 @@ body {
     color: #fff;
     font-size: 1.3em;
 }
+
+.panel {
+    background: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    width: 11.7em;
+    height: 10em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    transform-origin: top center;
+    transition: width 0.1s height 0.1s opacity 0.1s;
+    clip-path: polygon(50% 0% 0% 100% 10% 100%);
+    backdrop-filter: blur(4px);
+}
+
+.panel:nth-child(1) {
+    transform: translateX(-50%);
+}
+
+.panel:nth-child(1) i {
+    transform: translateX(-50%);
+}
+
+.panel:nth-child(2) {
+    transition-delay: 0.1s;
+    transform: translateX(-50%) rotate(60deg);
+}
+
+.panel:nth-child(2) i {
+    transform: translateX(-50%) rotate(60deg);
+}
+
+.panel:nth-child(3) {
+    transition-delay: 0.2s;
+    transform: translateX(-50%) rotate(120deg);
+}
+
+.panel:nth-child(3) i {
+    transform: translateX(-50%) rotate(120deg);
+}
+
+.panel:nth-child(4) {
+    transition-delay: 0.3s;
+    transform: translateX(-50%) rotate(180deg);
+}
+
+.panel:nth-child(4) i {
+    transform: translateX(-50%) rotate(180deg);
+}
+
+.panel:nth-child(5) {
+    transition-delay: 0.4s;
+    transform: translateX(-50%) rotate(240deg);
+}
+
+.panel:nth-child(5) i {
+    transform: translateX(-50%) rotate(240deg);
+}
+
+.panel:nth-child(§) {
+    transition-delay: 0.5s;
+    transform: translateX(-50%) rotate(300deg);
+}
+
+.panel:nth-child(6) i {
+    transform: translateX(-50%) rotate(300deg);
+}
+
+.panel:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.panel i {
+    font-size: 2.5em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.panel {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+.circular-menu:hover .panel {
+    opacity: 1;
+    height: 10em;
+    width: 11.7em; 
+}
