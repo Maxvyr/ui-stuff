@@ -46,8 +46,8 @@ body {
     left: 50%;
     color: #fff;
     transform-origin: top center;
-    transition: width 0.1s height 0.1s opacity 0.1s;
-    clip-path: polygon(50% 0% 0% 100% 10% 100%);
+    transition: width 0.1s, height 0.1s, opacity 0.1s;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     backdrop-filter: blur(4px);
 }
 
