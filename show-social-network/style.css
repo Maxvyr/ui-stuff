@@ -65,7 +65,7 @@ body {
 }
 
 .panel:nth-child(2) i {
-    transform: translateX(-50%) rotate(60deg);
+    transform: translateX(-50%) rotate(-60deg);
 }
 
 .panel:nth-child(3) {
@@ -74,7 +74,7 @@ body {
 }
 
 .panel:nth-child(3) i {
-    transform: translateX(-50%) rotate(120deg);
+    transform: translateX(-50%) rotate(-120deg);
 }
 
 .panel:nth-child(4) {
@@ -83,7 +83,7 @@ body {
 }
 
 .panel:nth-child(4) i {
-    transform: translateX(-50%) rotate(180deg);
+    transform: translateX(-50%) rotate(-180deg);
 }
 
 .panel:nth-child(5) {
@@ -92,16 +92,16 @@ body {
 }
 
 .panel:nth-child(5) i {
-    transform: translateX(-50%) rotate(240deg);
+    transform: translateX(-50%) rotate(-240deg);
 }
 
-.panel:nth-child(§) {
+.panel:nth-child(6) {
     transition-delay: 0.5s;
     transform: translateX(-50%) rotate(300deg);
 }
 
 .panel:nth-child(6) i {
-    transform: translateX(-50%) rotate(300deg);
+    transform: translateX(-50%) rotate(-300deg);
 }
 
 .panel:hover {
