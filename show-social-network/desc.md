@@ -1,5 +1,3 @@
 # Show Social Network Button
 
-<html>
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=F2tG5Bl7xUo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<html>
+[![Show Social Network Button](http://img.youtube.com/vi/F2tG5Bl7xUo/0.jpg)](http://www.youtube.com/watch?v=F2tG5Bl7xUo "Show Social Network Button")
