@@ -14,8 +14,8 @@ Some random anim CSS
 
 - [GitHub](https://github.com/maxvyr)
 - [LinkedIn](https://www.linkedin.com/in/maxime-vidalinc/)
-- [Instagram](https://www.instagram.com/maxvyr_/)
-- [Tiktok](https://www.tiktok.com/@maxvyr)
+- [X/Twitter](https://www.x.com/maxvidalinc)
+- [Youtube](https://www.youtube.com/@maximevidalinc)
 
 ## 🤝 Contributing
 
@@ -29,5 +29,3 @@ Give a ⭐ if you like this project!
 ## Crypto Tips
 
 ![https://raw.githubusercontent.com/Maxvyr/Maxvyr/main/img/tips/github-tips-crypto.png](https://raw.githubusercontent.com/Maxvyr/Maxvyr/main/img/tips/github-tips-crypto.png)
-
-# Acknowledgments
