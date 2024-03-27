@@ -6,7 +6,8 @@ Some random anim CSS
 
 ## List :
 
-- [Show logo social network](/show-social-network/desc.md)
+- [Show logo social network](/show-social-network/index.html)
+- [Sidebar](/sidebard/index.html)
 
 ## Author
 
