@@ -8,6 +8,7 @@ Some random anim CSS
 
 - [Show logo social network](/show-social-network/index.html)
 - [Sidebar](/sidebard/index.html)
+- [Invoice Generator](/invoice-generator/invoice.html)
 
 ## Author
 
