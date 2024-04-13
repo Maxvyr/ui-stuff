@@ -1,13 +1,21 @@
+let items = {
+  Americano: 1.11,
+  Cappuccino: 2.22,
+  Espresso: 3.33,
+  Latte: 4.44,
+  Mocha: 5.55,
+};
+
 let invoice = {
   // PROPERTIES
-  hNum: null, // html invoice number
-  hDate: null, // html invoice date
-  hBill: null, // html bill to
-  hItems: null, // html items list
-  hAdd: null, // html add item row
-  hData: null, // html items datalist
-  hTotal: null, // html total amount
-  hLoad: null, // html load invoice
+  hNum: null,
+  hDate: null,
+  hBill: null,
+  hItems: null,
+  hAdd: null,
+  hData: null,
+  hTotal: null,
+  hLoad: null,
 
   //INIT ITEMS LIST
   init: () => {
@@ -160,6 +168,18 @@ let invoice = {
     //OPEN PRINT PAGE
     let page = window.open("print.html");
     page.onload = () => {
+      //INFORMATION
+      page.document.getElementById("company").innerHTML =
+        "<strong>Company Name</strong>";
+      page.document.getElementById("address").innerHTML =
+        "<strong>Address</strong>";
+      page.document.getElementById("website").innerHTML =
+        "<strong>🖥️ : https://vidakei.com</strong>";
+      page.document.getElementById("email").innerHTML =
+        "<strong>📧 : contact@vidakei.com</strong>";
+      page.document.getElementById("phone").innerHTML =
+        "<strong>📱 : 0123456789</strong>";
+
       //INVOICE
       page.document.getElementById("billto").innerHTML =
         "<strong>BILL TO:</strong><br>" +
